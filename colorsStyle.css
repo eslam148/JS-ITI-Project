@@ -1,0 +1,74 @@
+
+.BalloonImg{
+width: 100px;
+display: none;
+}
+
+#centerImg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    border-radius: 20px;
+    margin-top: 30px;  
+  }
+
+#StartButton{
+
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+    width: 200px;
+    color:brown;
+    font-size: large;
+    font-weight: bold;
+  }
+  #header {
+
+    height: 100px;
+    display: block;
+    background-color: darkolivegreen;
+    border-radius: 30px;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+#nav {
+    list-style: none;
+
+
+
+    display: inline-block;
+}
+
+li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+    transition: 3s;
+
+
+}
+
+li:hover {
+    background-color: darkmagenta;
+
+}
+
+
+
+#footer {
+    background-color: darkolivegreen;
+    height: 100px;
+    width: 90%;
+    margin-left: 50px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+
+a {
+    text-decoration: none;
+}

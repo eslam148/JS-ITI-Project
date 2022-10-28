@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./numbersStyle.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+<style>
+    a
+    {
+        text-decoration: none;
+    }
+</style>
+    
+</head>
+
+<body>
+<div class="container">
+    <div class="row">
+        <header id="header">
+            <ul id="navbar-nav">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="paint.html">paint</a></li>
+              <li><a style="text-decoration:none ;" href="map.html">Map</a></li>
+              <li><a href="coloring.html">Coloring</a></li>
+              <li> <a href="CatchJery.html">CatchJery</a></li>
+              <li><a href="test.html">Test</a></li>
+              <li><a href="colors.html">Learning Color</a></li>
+              <li><a href="numbers.html">Matching Number</a></li>
+            </ul>
+          </header>
+    </div>
+    <div class="row">
+        <nav>
+            <img src="./Images/images/in.png" class="numbers" draggable="true" ondragstart="StartDrag1(this, 1)">
+            <img src="./Images/images/2n.png" class="numbers" draggable="true" ondragstart="StartDrag1(this, 2)">
+            <img src="./Images/images/3n.png" class="numbers" draggable="true" ondragstart="StartDrag1(this, 3)">
+            <img src="./Images/images/4n.png" class="numbers" draggable="true" ondragstart="StartDrag1(this, 4)">
+            <img src="./Images/images/5n.png" class="numbers" draggable="true" ondragstart="StartDrag1(this, 5)">
+            <img src="./Images/images/6n.png" class="numbers" draggable="true" ondragstart="StartDrag1(this, 6)">
+            <img src="./Images/images/7n.png" class="numbers" draggable="true" ondragstart="StartDrag1(this, 7)">
+            <img src="./Images/images/8n.png" class="numbers" draggable="true" ondragstart="StartDrag1(this, 8)">
+            <img src="./Images/images/9n.png" class="numbers" draggable="true" ondragstart="StartDrag1(this, 9)">
+            <img src="./Images/images/10n.png" class="numbers" draggable="true" ondragstart="StartDrag1(this, 10)">
+        </nav>
+    
+        <aside  id="container" style="display: inline-block;">
+            <div class="imgcontainer"  id="1" ondragover="dragover(event)" ondrop="Drop1(event,8)" >
+               
+                <img src="./Images/images/m8.png"  class="img">
+    
+            </div>
+            <div class="imgcontainer"  ondragover="dragover(event)" ondrop="Drop1(event, 5)">
+                <img src="./Images/images/m5.png"  class="img">
+            </div>
+            <div  class="imgcontainer"  ondragover="dragover(event)" ondrop="Drop1(event, 1)">
+                <img src="./Images/images/mg1.png"  class="img">
+    
+            </div>
+    
+            <div class="imgcontainer" ondragover="dragover(event)" ondrop="Drop1(event, 7)">
+                <img src="./Images/images/m7.png" class="img" >
+    
+            </div>
+            <div class="imgcontainer" ondragover="dragover(event)" ondrop="Drop1(event, 2)">
+                <img src="./Images/images/mg2.png"  class="img">
+    
+            </div>
+            <div  class="imgcontainer" ondragover="dragover(event)" ondrop="Drop1(event, 4)">
+                <img src="./Images/images/m4.png" class="img"> 
+    
+            </div>
+            <div class="imgcontainer" ondragover="dragover(event)" ondrop="Drop1(event, 10)">
+                <img src="./Images/images/m10.png"  class="img"> 
+    
+            </div>
+            <div  class="imgcontainer" ondragover="dragover(event)" ondrop="Drop1(event, 6)">
+                <img src="./Images/images/m6.png" class="img">
+    
+            </div>
+            <div   class="imgcontainer" ondragover="dragover(event)" ondrop="Drop1(event, 3)">
+                <img src="./Images/images/m3.png" class="img"> 
+            </div>
+            <p id="bravoDiv"  >
+    
+            </p>
+            <div   class="imgcontainer" ondragover="dragover(event)" ondrop="Drop1(event, 9)">
+                
+                <img src="./Images/images/m9.png"  class="img" style="height:100px; width: 140px;">
+            </div>
+        </aside>
+    
+        <audio id="audio">
+            <source src="./Images/images/mixkit-football-team-applause-509 - Copy.mp3" type="audio/mp3">
+            <source src="./Images/images/mixkit-football-team-applause-509.wav" type="audio/wav">
+            
+    
+        </audio>
+    
+    </div>
+    <div class="row">
+        <footer id="footer">
+
+        </footer>
+
+    </div>
+</div>
+
+   
+   
+
+
+
+<script src="./numbers.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,179 @@
+.objanimation{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    position: relative;
+    background-image: url("/Images/tom-and-jerry-12318.png");
+    background-size: cover;
+    animation: moves;
+}
+@keyframes moves {
+    0% {
+        left: 0px;
+        top: 0px
+    }
+
+    5% {
+        left: 300px;
+        top: 200px
+    }
+
+    10% {
+        left: 600px;
+        top: 100px
+    }
+
+    15% {
+        left: 600px;
+        top: 500px
+    }
+
+    20% {
+        left: 300px;
+        top: 500px
+    }
+
+    25% {
+        left: 600px;
+        top: 400px
+    }
+
+    30% {
+        left: 100px;
+        top: 0px
+    }
+
+    35% {
+        left: 600px;
+        top: 200px
+    }
+
+    40% {
+        left: 100px;
+        top: 500px
+    }
+
+    45% {
+        left: 0px;
+        top: 500px
+    }
+
+    50% {
+        left: 600px;
+        top: 500px
+    }
+
+    55% {
+        left: 300px;
+        top: 200px
+    }
+
+    60% {
+        left: 600px;
+        top: 100px
+    }
+
+    65% {
+        left: 600px;
+        top: 500px
+    }
+
+    70% {
+        left: 300px;
+        top: 500px
+    }
+
+    75% {
+        left: 600px;
+        top: 400px
+    }
+
+    80% {
+        left: 100px;
+        top: 0px
+    }
+
+    85% {
+        left: 600px;
+        top: 200px
+    }
+
+    90% {
+        left: 100px;
+        top: 500px
+    }
+
+    95% {
+        left: 0px;
+        top: 500px
+    }
+
+    100% {
+        left: 600px;
+        top: 200px;
+    }
+}
+#btndiv{
+   
+    float: right;
+    width: 400px;
+    height: 600px;
+    position: relative;
+    background-color: aquamarine;
+    color:black;
+    display: block;
+    text-align: center;
+}
+#Area{
+    position: absolute;
+    float:left;
+    height: 600px;
+    width: 900px;
+    background-color: deepskyblue;
+}
+#header {
+
+    height: 100px;
+    display: block;
+    background-color: darkolivegreen;
+    border-radius: 30px;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+#nav {
+    list-style: none;
+
+
+
+    display: inline-block;
+}
+
+li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+    transition: 3s;
+
+
+}
+
+li:hover {
+    background-color: darkmagenta;
+
+}
+
+#paint {
+    margin-left: 100px;
+}
+
+#footer {
+    background-color: darkolivegreen;
+    height: 100px;
+    width: 90%;
+    margin-left: 50px;
+    margin-top: 20px;
+    text-align: center;
+}

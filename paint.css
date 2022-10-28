@@ -1,0 +1,74 @@
+.color-div {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: blue;
+    float: right;
+    margin: 10px;
+}
+
+#clear {
+
+    border-radius: 50%;
+    text-align: center;
+    background-color: gray;
+    float: right;
+    margin-top: 500px;
+
+}
+
+#header {
+
+    height: 100px;
+    display: block;
+    background-color: darkolivegreen;
+    border-radius: 30px;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+#nav {
+    list-style: none;
+
+
+
+    display: inline-block;
+}
+
+li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+    transition: 3s;
+
+
+}
+
+li:hover {
+    background-color: darkmagenta;
+
+}
+
+#paint {
+    margin-left: 100px;
+}
+
+#footer {
+    background-color: darkolivegreen;
+    height: 100px;
+    width: 90%;
+    margin-left: 50px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#earse {
+    font-size: 25px;
+    color: brown;
+}
+
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,69 @@
+.slideStyle{
+    width: 500px;
+    margin: auto;
+}
+.controler{
+        width: 500px;
+
+    margin: auto;
+}
+.row img{
+    width: 200px;
+     margin: auto;
+}
+
+#header {
+
+    height: 100px;
+    display: block;
+    background-color: darkolivegreen;
+    border-radius: 30px;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+#nav {
+    list-style: none;
+
+
+
+    display: inline-block;
+}
+
+li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+    transition: 3s;
+
+
+}
+
+li:hover {
+    background-color: darkmagenta;
+
+}
+
+#paint {
+    margin-left: 100px;
+}
+
+#footer {
+    background-color: darkolivegreen;
+    height: 100px;
+    width: 90%;
+    margin-left: 50px;
+    margin-top: 20px;
+    text-align: center;
+}
+#btns
+{
+    margin-top: 150px;
+}
+#choise
+{
+    text-align: center;
+    margin-top: 300px;
+}

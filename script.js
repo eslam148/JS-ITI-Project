@@ -5,9 +5,9 @@ let imageInterval = setInterval(() =>{
     }
     document.getElementById("Image").src = "/Images/"+counter+".webp";
     document.getElementById("audio").childNodes[1].src = "/music/"+counter+".mp3"
-    document.getElementById("audio").pause();
+    //document.getElementById("audio").pause();
    document.getElementById("audio").load();
-    document.getElementById("audio").play();
+    //document.getElementById("audio").play();
     counter++;
 },3000)
 
